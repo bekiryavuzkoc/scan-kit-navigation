@@ -82,4 +82,5 @@ class ScanFragment : Fragment(), MainActivity.ScanKitActivityResult {
     }
 
 
+
 }
