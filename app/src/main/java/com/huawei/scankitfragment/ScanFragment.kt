@@ -82,28 +82,4 @@ class ScanFragment : Fragment(), MainActivity.ScanKitActivityResult {
     }
 
 
-
-
-
-
-   /* override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        super.onActivityResult(requestCode, resultCode, data)
-        if (resultCode != Activity.RESULT_OK || data == null) { return }
-        // Obtain the return value of HmsScan from the value returned by the onActivityResult method by using ScanUtil.RESULT as the key value.
-        else if (requestCode == REQUEST_CODE_SCAN) {
-            when (val obj: Any = data.getParcelableExtra(ScanUtil.RESULT)) {
-                is HmsScan -> {
-                    if (!TextUtils.isEmpty(obj.getOriginalValue())) {
-                        Toast.makeText(activity, obj.getOriginalValue(), Toast.LENGTH_SHORT).show()
-                    }else{
-                        Toast.makeText(activity, "Please scan the correct qr code", Toast.LENGTH_SHORT).show()
-                    }
-                    return
-                }
-            }
-        }
-    }*/
-
-
 }
